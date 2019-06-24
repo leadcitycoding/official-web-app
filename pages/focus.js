@@ -2,6 +2,11 @@ import Layout from '../components/Layout'
 
 import Link from 'next/link'
 
+const seaNspace = {
+  margin: '2em',
+  color: '#1e93dd'
+}
+
 const space = {
   margin: '2em'
 }
@@ -21,7 +26,16 @@ const Page = () => (
 
     <div className="main-content">
       
-      <h1 style={space}>Focus Tools</h1>
+      <h1 style={seaNspace}>Focus Tools</h1>
+
+      <Link href="/curriculum">
+        <span style={button}>Curriculum</span>
+      </Link>
+      
+      <br />
+      <br />
+      <br />
+      <br />
 
       <Link href="/">
         <span style={button}>Home Page</span>

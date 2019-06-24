@@ -40,7 +40,9 @@ const Page = () => (
         <br /> each day - being 10AM to 12PM.</h5>
 
       <h3 style={titleUnderline}>2019 Summer Bootcamp</h3>
+      
       <hr />
+      
       <div>
         <h4 style={rose}>Week One</h4>
         <p>Introduction to HTML & CSS</p>
@@ -49,7 +51,9 @@ const Page = () => (
         <p>Introduction to React.js Web Application Development</p>
         <p><em><b>Assignment: Build a Website about yourself.</b></em></p>
       </div>
+
       <hr />
+      
       <div>
         <h4 style={rose}>Week Two</h4>
         <p>Styling React.js components with CSS-in-JS</p>
@@ -59,6 +63,7 @@ const Page = () => (
         <p><em><b>Assignment: Built a React.js Web Application about 
           <br /> something you are passionate about.</b></em></p>
       </div>
+
       <hr />
       <br />
       <br />

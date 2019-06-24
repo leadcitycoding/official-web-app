@@ -16,6 +16,12 @@ const button = {
   cursor: 'pointer'
 }
 
+const titleUnderline = {
+  textDecoration: 'underline',
+  textDecorationColor: '#1e93dd',
+  marginBottom: '2em'
+}
+
 const Page = () => (
   <Layout>
 
@@ -23,7 +29,7 @@ const Page = () => (
       
       <h1 style={space}>Curriculum</h1>
 
-      
+      <h3 style={titleUnderline}>2019 Summer Bootcamp</h3>
 
       <Link href="/focus">
         <span style={button}>Focus Tools</span>

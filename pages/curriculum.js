@@ -38,7 +38,7 @@ const Page = () => (
         <p>Deploying websites with Cloud Hosting</p>
         <p>Introduction to React.js Web Application Development</p>
         <blockquote>
-          <em><b></b>: </em>
+          <em><b>Assignment</b>: </em>
         </blockquote>
       </div>
 
@@ -49,7 +49,7 @@ const Page = () => (
         <p></p>
         <p></p>
         <blockquote>
-          <em><b></b>: </em>
+          <em><b>Assignment</b>: </em>
         </blockquote>
       </div>
 

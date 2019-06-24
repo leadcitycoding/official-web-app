@@ -30,27 +30,23 @@ const Page = () => (
       <h1 style={space}>Curriculum</h1>
 
       <h3 style={titleUnderline}>2019 Summer Bootcamp</h3>
-
+      <hr />
       <div>
         <h4>Week One</h4>
         <p>Introduction to HTML & CSS</p>
         <p>Introduction to Git Version Control</p>
         <p>Deploying websites with Cloud Hosting</p>
         <p>Introduction to React.js Web Application Development</p>
-        <blockquote>
-          <em><b>Assignment</b>: </em>
-        </blockquote>
+        <p><em><b>Assignment</b>: </em></p>
       </div>
-
+      <hr />
       <div>
         <h4>Week Two</h4>
         <p>Introduction to HTML & CSS</p>
         <p></p>
         <p></p>
         <p></p>
-        <blockquote>
-          <em><b>Assignment</b>: </em>
-        </blockquote>
+        <p><em><b>Assignment</b>: </em></p>
       </div>
 
       <Link href="/focus">

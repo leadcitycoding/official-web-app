@@ -46,7 +46,7 @@ const Page = () => (
         <p>Deploying React.js Web Applications</p>
         <p>Build production-grade React web applications with Next.js</p>
         <p>Round-Up & Student feedback</p>
-        <p><em><b>Assignment: </b></em></p>
+        <p><em><b>Assignment: Built a React.js Web Application about something you are passionate about.</b></em></p>
       </div>
 
       <Link href="/focus">

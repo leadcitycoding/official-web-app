@@ -23,6 +23,16 @@ const Page = () => (
       
       <h1 style={space}>Curriculum</h1>
 
+      
+
+      <Link href="/focus">
+        <span style={button}>Focus Tools</span>
+      </Link>
+      
+      <br />
+      <br />
+      <br />
+      <br />
 
       <Link href="/">
         <span style={button}>Home Page</span>

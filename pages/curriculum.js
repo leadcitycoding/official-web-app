@@ -31,6 +31,28 @@ const Page = () => (
 
       <h3 style={titleUnderline}>2019 Summer Bootcamp</h3>
 
+      <div>
+        <h4>Week One</h4>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <blockquote></blockquote>
+      </div>
+
+      <div>
+        <h4>Week Two</h4>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <blockquote></blockquote>
+      </div>
+
       <Link href="/focus">
         <span style={button}>Focus Tools</span>
       </Link>

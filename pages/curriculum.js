@@ -39,7 +39,9 @@ const Page = () => (
           <li></li>
           <li></li>
         </ul>
-        <blockquote></blockquote>
+        <blockquote>
+          <b></b>
+        </blockquote>
       </div>
 
       <div>
@@ -50,7 +52,9 @@ const Page = () => (
           <li></li>
           <li></li>
         </ul>
-        <blockquote></blockquote>
+        <blockquote>
+          <b></b>
+        </blockquote>
       </div>
 
       <Link href="/focus">

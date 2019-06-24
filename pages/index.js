@@ -13,8 +13,17 @@ const button = {
   border: '1px solid',
   padding: '0.7em 2em',
   boxShadow: '5px 10px #5d5d5d',
-  backgroundColor: '#3cb271',
+  backgroundColor: '#cc5490',
   cursor: 'pointer'
+}
+
+const logoSize = {
+  width: "25%",
+  height: "auto"
+}
+
+const info = {
+  padding: "2em"
 }
 
 const Index = () => (
@@ -22,7 +31,16 @@ const Index = () => (
     
     <div className="main-content">
 
-      <h1 style={space}>Welcome Page!</h1>
+      <h1 style={space}>Lead City Coding Academy</h1>
+
+      <div>
+        <img style={logoSize} src="/static/logo.png" alt="logo" />
+        <p>Software Development, is the future of the African workplace, and economy.</p>
+        <p style={info}>Software training and outsourcing companies like Andela and Lambda School
+          <br /> also allow local developers access global opportunities through training and outsourcing. 
+          <br /> Beyond seeking higher-paying opportunities elsewhere, local developers
+          <br /> who look to move abroad also cite the possibility of skill advancement and professional growth.</p>
+      </div>
     
       <Link href="/page">
         <span style={button}>Next Page</span>

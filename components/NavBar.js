@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const bar = {
   display: 'inline-block',
-  backgroundColor : '#212121',
+  backgroundColor : '#cc5490',
   width: "100%",
   fixed: 'top',
 }
@@ -14,7 +14,7 @@ const leftBar = {
 
 const main = {
   color: '#f0f0f0',
-  backgroundColor: '#3cb271',
+  backgroundColor: '#e0117c',
   padding: '1em'
 }
 
@@ -24,18 +24,22 @@ const home = {
 }
 
 const links = {
-  color: '#3a9fe5'
+  color: '#f0f0f0'
 }
 
 const NavBar = () => (
   <div style={bar}>
     <span style={leftBar}>
-      <span style={main}>Starter</span>
-      <span style={home}>
+      <span style={main}>
+        <Link href="/">
+          <a style={links}>Lead City Coding Academy</a>
+        </Link>
+      </span>
+      {/* <span style={home}>
         <Link href="/">
           <a style={links}>Home</a>
         </Link>
-      </span>
+      </span> */}
     </span>
   </div>
 )

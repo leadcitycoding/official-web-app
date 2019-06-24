@@ -61,8 +61,12 @@ const Page = () => (
         </div>
 
         <div style={block}>
-          <h3 style={rose}></h3>
-          <p></p>
+          <h3 style={rose}>Git Version Control</h3>
+          <p>Git is a distributed version-control system for tracking changes 
+            <br /> in source code during software development. It is designed 
+            <br /> for coordinating work among programmers, but it can be used 
+            <br /> to track changes in any set of files. Its goals include speed, 
+            <br /> data integrity, and support for distributed, non-linear workflows.</p>
         </div>
       </div>
 

@@ -27,6 +27,10 @@ const imgSize = {
   marginBottom: '2em'
 }
 
+const block = {
+  padding: '1.4em'
+}
+
 const Page = () => (
   <Layout>
 
@@ -34,8 +38,18 @@ const Page = () => (
       
       <h1 style={seaNspace}>Focus Tools</h1>
 
-      <div>
+      <div style={block}>
         <img style={imgSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
+
+        <div style={block}>
+          <h3>React.js</h3>
+          <p>React (also known as React.js or ReactJS) is a JavaScript library 
+            <br /> for building user interfaces. It is maintained by Facebook 
+            <br /> and a community of individual developers and companies. React 
+            <br /> can be used as a base in the development of single-page or mobile applications, 
+            <br /> as it's optimal only for its intended use of being the quickest 
+            <br /> method to fetch rapidly changing data that needs to be recorded.</p>
+        </div>
       </div>
 
       <Link href="/curriculum">

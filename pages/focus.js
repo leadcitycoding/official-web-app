@@ -53,7 +53,11 @@ const Page = () => (
 
         <div style={block}>
           <h3>Next.js</h3>
-          <p></p>
+          <p>This is the React framework for production-grade web applications. 
+            <br /> It has in-built automatic code splitting, filesystem based routing, 
+            <br /> hot code reloading and universal rendering. With Next.js, 
+            <br /> server rendering React applications is much more efficient, 
+            <br /> regardless of the sources of one’s data.</p>
         </div>
 
         <div style={block}>

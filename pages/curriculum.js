@@ -37,7 +37,7 @@ const Page = () => (
         <p>Introduction to Git Version Control</p>
         <p>Deploying websites with Cloud Hosting</p>
         <p>Introduction to React.js Web Application Development</p>
-        <p><em><b>Assignment</b>: </em></p>
+        <p><em><b>Assignment: Build a Website about yourself.</b></em></p>
       </div>
       <hr />
       <div>
@@ -46,7 +46,7 @@ const Page = () => (
         <p></p>
         <p></p>
         <p></p>
-        <p><em><b>Assignment</b>: </em></p>
+        <p><em><b>Assignment: </b></em></p>
       </div>
 
       <Link href="/focus">

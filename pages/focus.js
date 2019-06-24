@@ -7,10 +7,6 @@ const seaNspace = {
   color: '#1e93dd'
 }
 
-const space = {
-  margin: '2em'
-}
-
 const button = {
   color: '#f0f0f0',
   fontSize: '1.4em',
@@ -31,6 +27,10 @@ const block = {
   padding: '1.4em'
 }
 
+const rose = {
+  color: '#cc5490'
+}
+
 const Page = () => (
   <Layout>
 
@@ -42,7 +42,7 @@ const Page = () => (
         <img style={imgSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
 
         <div style={block}>
-          <h3>React.js</h3>
+          <h3 style={rose}>React.js</h3>
           <p>React (also known as React.js or ReactJS) is a JavaScript library 
             <br /> for building user interfaces. It is maintained by Facebook 
             <br /> and a community of individual developers and companies. React 
@@ -52,7 +52,7 @@ const Page = () => (
         </div>
 
         <div style={block}>
-          <h3>Next.js</h3>
+          <h3 style={rose}>Next.js</h3>
           <p>This is the React framework for production-grade web applications. 
             <br /> It has in-built automatic code splitting, filesystem based routing, 
             <br /> hot code reloading and universal rendering. With Next.js, 
@@ -61,7 +61,7 @@ const Page = () => (
         </div>
 
         <div style={block}>
-          <h3></h3>
+          <h3 style={rose}></h3>
           <p></p>
         </div>
       </div>

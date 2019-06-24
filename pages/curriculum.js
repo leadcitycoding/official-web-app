@@ -23,6 +23,7 @@ const Page = () => (
       
       <h1 style={space}>Curriculum</h1>
 
+
       <Link href="/">
         <span style={button}>Home Page</span>
       </Link>

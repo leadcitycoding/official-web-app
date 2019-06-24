@@ -33,12 +33,10 @@ const Page = () => (
 
       <div>
         <h4>Week One</h4>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <p>Introduction to HTML & CSS</p>
+        <p></p>
+        <p></p>
+        <p></p>
         <blockquote>
           <b></b>
         </blockquote>
@@ -46,12 +44,10 @@ const Page = () => (
 
       <div>
         <h4>Week Two</h4>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+        <p>Introduction to HTML & CSS</p>
+        <p></p>
+        <p></p>
+        <p></p>
         <blockquote>
           <b></b>
         </blockquote>

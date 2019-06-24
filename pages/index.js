@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import Info from '../components/Info'
 
 import Link from 'next/link'
 
@@ -45,8 +44,6 @@ const Index = () => (
       <Link href="/page">
         <span style={button}>Next Page</span>
       </Link>
-    
-      <Info />
 
     </div>
     

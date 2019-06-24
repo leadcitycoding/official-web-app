@@ -1,5 +1,6 @@
 import IndexHead from './Head'
 import NavBar from './NavBar'
+import Copyr from './Copyr'
 
 const Layout = props => (
   <div>
@@ -22,6 +23,7 @@ const Layout = props => (
         text-align: center;
       }
     `}</style>
+    <Copyr />
   </div>
 )
 

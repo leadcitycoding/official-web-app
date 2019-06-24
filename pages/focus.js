@@ -50,6 +50,16 @@ const Page = () => (
             <br /> as it's optimal only for its intended use of being the quickest 
             <br /> method to fetch rapidly changing data that needs to be recorded.</p>
         </div>
+
+        <div style={block}>
+          <h3></h3>
+          <p></p>
+        </div>
+
+        <div style={block}>
+          <h3></h3>
+          <p></p>
+        </div>
       </div>
 
       <Link href="/curriculum">

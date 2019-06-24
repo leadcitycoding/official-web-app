@@ -52,7 +52,7 @@ const Page = () => (
         </div>
 
         <div style={block}>
-          <h3></h3>
+          <h3>Next.js</h3>
           <p></p>
         </div>
 

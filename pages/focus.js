@@ -70,6 +70,11 @@ const Page = () => (
         </div>
       </div>
 
+      <div style={block}>
+        <h3>Contact the Instructor</h3>
+        <p><a href="tel:+2349032551187" alt="+2349032551187">+2349032551187</a></p>
+      </div>
+
       <Link href="/curriculum">
         <span style={button}>Curriculum</span>
       </Link>

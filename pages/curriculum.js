@@ -43,7 +43,7 @@ const Page = () => (
       <div>
         <h4>Week Two</h4>
         <p>Introduction to HTML & CSS</p>
-        <p></p>
+        <p>Styling React.js components with CSS-in-JS</p>
         <p></p>
         <p></p>
         <p><em><b>Assignment: </b></em></p>

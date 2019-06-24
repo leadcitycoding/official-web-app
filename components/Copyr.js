@@ -1,5 +1,6 @@
 const note = {
-  margin: '4em'
+  margin: '4em',
+  textAlign: 'center'
 }
 
 export default function Copyr() {

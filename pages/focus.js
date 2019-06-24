@@ -21,6 +21,12 @@ const button = {
   cursor: 'pointer'
 }
 
+const imgSize = {
+  width: '25%',
+  height: 'auto',
+  marginBottom: '2em'
+}
+
 const Page = () => (
   <Layout>
 
@@ -29,7 +35,7 @@ const Page = () => (
       <h1 style={seaNspace}>Focus Tools</h1>
 
       <div>
-        <img style={logoSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
+        <img style={imgSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
       </div>
 
       <Link href="/curriculum">

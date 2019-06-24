@@ -35,11 +35,6 @@ const NavBar = () => (
           <a style={links}>Lead City Coding Academy</a>
         </Link>
       </span>
-      {/* <span style={home}>
-        <Link href="/">
-          <a style={links}>Home</a>
-        </Link>
-      </span> */}
     </span>
   </div>
 )

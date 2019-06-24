@@ -13,7 +13,7 @@ const button = {
   border: '1px solid',
   padding: '0.7em 2em',
   boxShadow: '5px 10px #5d5d5d',
-  backgroundColor: '#cc5490',
+  backgroundColor: '#1e93dd',
   cursor: 'pointer'
 }
 

@@ -33,12 +33,13 @@ const Index = () => (
   <Layout>
     
     <div className="main-content">
+      <img style={logoSize} src="/static/logo.png" title="Lead City Coding Academy" alt="logo" />
 
       <h1 style={space}>Lead City Coding Academy</h1>
 
       <div>
-        <img style={logoSize} src="/static/logo.png" title="Lead City Coding Academy" alt="logo" />
         <p>Software Development, is the future of the African workplace, and economy.</p>
+        <img src="https://images.unsplash.com/photo-1527600478564-488952effedb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
         <p style={info}>Software training and outsourcing companies like Andela and Lambda School
           <br /> also allow local developers access global opportunities through training and outsourcing. 
           <br /> Beyond seeking higher-paying opportunities elsewhere, local developers

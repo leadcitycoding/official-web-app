@@ -24,7 +24,7 @@ const imgSize = {
 }
 
 const block = {
-  padding: '1.4em'
+  paddingBottom: '1.4em'
 }
 
 const rose = {

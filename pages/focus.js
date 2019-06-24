@@ -31,6 +31,10 @@ const rose = {
   color: '#cc5490'
 }
 
+const ahref ={
+  color: "#1e93dd"
+}
+
 const Page = () => (
   <Layout>
 
@@ -40,6 +44,13 @@ const Page = () => (
 
       <div style={block}>
         <img style={imgSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
+
+        <div style={block}>
+          <h3>Contact the Instructor</h3>
+          <p><a href="tel:+2349032551187" style={ahref}
+                alt="+2349032551187">+2349032551187</a></p>
+          <hr />
+        </div>
 
         <div style={block}>
           <h3 style={rose}>React.js</h3>
@@ -68,11 +79,6 @@ const Page = () => (
             <br /> to track changes in any set of files. Its goals include speed, 
             <br /> data integrity, and support for distributed, non-linear workflows.</p>
         </div>
-      </div>
-
-      <div style={block}>
-        <h3>Contact the Instructor</h3>
-        <p><a href="tel:+2349032551187" alt="+2349032551187">+2349032551187</a></p>
       </div>
 
       <Link href="/curriculum">

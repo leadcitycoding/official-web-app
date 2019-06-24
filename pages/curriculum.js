@@ -2,8 +2,9 @@ import Layout from '../components/Layout'
 
 import Link from 'next/link'
 
-const space = {
-  margin: '2em'
+const seaNspace = {
+  margin: '2em',
+  color: '#1e93dd'
 }
 
 const button = {
@@ -22,17 +23,26 @@ const titleUnderline = {
   marginBottom: '2em'
 }
 
+const rose = {
+  color: '#cc5490'
+}
+
 const Page = () => (
   <Layout>
 
     <div className="main-content">
       
-      <h1 style={space}>Curriculum</h1>
+      <h1 style={seaNspace}>Curriculum</h1>
+
+      <h5>Classes will be held from Monday to Thursday
+        <br /> for 2 hours and handle one module at a time,
+        <br /> as a topic of practise during the set time
+        <br /> each day - being 10AM to 12PM.</h5>
 
       <h3 style={titleUnderline}>2019 Summer Bootcamp</h3>
       <hr />
       <div>
-        <h4>Week One</h4>
+        <h4 style={rose}>Week One</h4>
         <p>Introduction to HTML & CSS</p>
         <p>Introduction to Git Version Control</p>
         <p>Deploying websites with Cloud Hosting</p>
@@ -41,7 +51,7 @@ const Page = () => (
       </div>
       <hr />
       <div>
-        <h4>Week Two</h4>
+        <h4 style={rose}>Week Two</h4>
         <p>Styling React.js components with CSS-in-JS</p>
         <p>Deploying React.js Web Applications</p>
         <p>Build production-grade React web applications with Next.js</p>

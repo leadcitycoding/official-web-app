@@ -41,13 +41,17 @@ const Page = () => (
       </div>
       <hr />
       <div>
-        <h4>Week Two</h4>\
+        <h4>Week Two</h4>
         <p>Styling React.js components with CSS-in-JS</p>
         <p>Deploying React.js Web Applications</p>
         <p>Build production-grade React web applications with Next.js</p>
         <p>Round-Up & Student feedback</p>
-        <p><em><b>Assignment: Built a React.js Web Application about something you are passionate about.</b></em></p>
+        <p><em><b>Assignment: Built a React.js Web Application about 
+          <br /> something you are passionate about.</b></em></p>
       </div>
+      <hr />
+      <br />
+      <br />
 
       <Link href="/focus">
         <span style={button}>Focus Tools</span>

@@ -14,7 +14,7 @@ const leftBar = {
 
 const main = {
   color: '#f0f0f0',
-  backgroundColor: '#e0117c',
+  backgroundColor: '#1e93dd',
   padding: '1em'
 }
 

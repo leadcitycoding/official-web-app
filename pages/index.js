@@ -43,9 +43,9 @@ const Index = () => (
           <br /> also allow local developers access global opportunities through training and outsourcing. 
           <br /> Beyond seeking higher-paying opportunities elsewhere, local developers
           <br /> who look to move abroad also cite the possibility of skill advancement and professional growth.
-          <span style={info}>Source: 
+          <span style={info}><em>Source: 
           (<a href="https://qz.com/africa/1618874/microsoft-opens-africa-development-centre-in-kenya-and-nigeria/" 
-              alt="(Quartz Africa)" style={ahref} target="_blank">Quartz Africa</a>)</span></p>
+              alt="(Quartz Africa)" style={ahref} target="_blank">Quartz Africa</a>)</em></span></p>
       </div>
     
       <Link href="/curriculum">

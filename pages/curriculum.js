@@ -44,7 +44,7 @@ const Page = () => (
         <h4>Week Two</h4>\
         <p>Styling React.js components with CSS-in-JS</p>
         <p>Deploying React.js Web Applications</p>
-        <p></p>
+        <p>Build production-grade React web applications with Next.js</p>
         <p></p>
         <p><em><b>Assignment: </b></em></p>
       </div>

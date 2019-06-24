@@ -35,7 +35,7 @@ const Page = () => (
         <h4>Week One</h4>
         <p>Introduction to HTML & CSS</p>
         <p>Introduction to Git Version Control</p>
-        <p></p>
+        <p>Deploying websites with Cloud Hosting</p>
         <p></p>
         <blockquote>
           <b></b>

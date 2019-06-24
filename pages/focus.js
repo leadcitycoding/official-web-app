@@ -28,6 +28,10 @@ const Page = () => (
       
       <h1 style={seaNspace}>Focus Tools</h1>
 
+      <div>
+        <img style={logoSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
+      </div>
+
       <Link href="/curriculum">
         <span style={button}>Curriculum</span>
       </Link>

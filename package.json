@@ -1,0 +1,20 @@
+{
+  "name": "leadcitycodingacademy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lead City Coding Academy, web application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Usheninte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}

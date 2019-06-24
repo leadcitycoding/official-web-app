@@ -14,7 +14,7 @@ const Layout = props => (
       /* Main Styles */
       body {
         margin: 0;
-        background-color: #f7f7f7;
+        background-color: #fff;
         font-family: 'Open Sans', sans-serif;
       }
 

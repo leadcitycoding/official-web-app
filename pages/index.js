@@ -45,11 +45,11 @@ const Index = () => (
           <br /> who look to move abroad also cite the possibility of skill advancement and professional growth.</p>
         <h6 style={info}>Source: 
           (<a href="https://qz.com/africa/1618874/microsoft-opens-africa-development-centre-in-kenya-and-nigeria/" 
-             alt="(Quartz Africa)" style={ahref} target="_blank">Quartz Africa</a>)</h6>
+              alt="(Quartz Africa)" style={ahref} target="_blank">Quartz Africa</a>)</h6>
       </div>
     
-      <Link href="/page">
-        <span style={button}>Next Page</span>
+      <Link href="/curriculum">
+        <span style={button}>Curriculum</span>
       </Link>
 
     </div>

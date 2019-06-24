@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import Info from '../components/Info'
 
 import Link from 'next/link'
 
@@ -27,8 +26,6 @@ const Page = () => (
       <Link href="/">
         <span style={button}>Home Page</span>
       </Link>
-    
-      <Info />
 
     </div>
 

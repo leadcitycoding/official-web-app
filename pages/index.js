@@ -51,6 +51,15 @@ const Index = () => (
       <Link href="/curriculum">
         <span style={button}>Curriculum</span>
       </Link>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+      
+      <Link href="/focus">
+        <span style={button}>Focus Tools</span>
+      </Link>
 
     </div>
     

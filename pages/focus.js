@@ -21,7 +21,7 @@ const Page = () => (
 
     <div className="main-content">
       
-      <h1 style={space}>Curriculum</h1>
+      <h1 style={space}>Focus Tools</h1>
 
       <Link href="/">
         <span style={button}>Home Page</span>

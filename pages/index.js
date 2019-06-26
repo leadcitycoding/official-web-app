@@ -34,6 +34,15 @@ const ahref ={
   color: "#1e93dd"
 }
 
+const cost = {
+  display: 'block',
+  marginBottom: '2em'
+}
+
+const rose = {
+  color: '#cc5490'
+}
+
 const Index = () => (
   <Layout>
     
@@ -52,6 +61,13 @@ const Index = () => (
           <span style={info}><em>Source: 
           (<a href="https://qz.com/africa/1618874/microsoft-opens-africa-development-centre-in-kenya-and-nigeria/" 
               alt="(Quartz Africa)" style={ahref} target="_blank">Quartz Africa</a>)</em></span></p>
+      </div>
+
+      <hr />
+
+      <div style={cost}>
+        <h5 style={rose}>Cost of Tuition</h5>
+        <h4>N25,000</h4>
       </div>
     
       <Link href="/curriculum">

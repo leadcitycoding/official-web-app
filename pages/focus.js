@@ -36,6 +36,10 @@ const ahref ={
   color: "#1e93dd"
 }
 
+const ahref2 ={
+  color: "#1e93dd"
+}
+
 const Page = () => (
   <Layout>
 
@@ -94,6 +98,17 @@ const Page = () => (
       <Link href="/">
         <span style={button}>Home Page</span>
       </Link>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <a href="https://forms.gle/sKtnTR6CuofYg25f9" 
+         alt="Registration Form" target="_blank"
+         style={ahref2}>
+            <span style={button}>Registration Form</span>
+      </a>
 
     </div>
 

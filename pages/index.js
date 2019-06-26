@@ -17,8 +17,13 @@ const button = {
 }
 
 const logoSize = {
-  width: "25%",
-  height: "auto"
+  width: "80%",
+  height: "auto",
+  maxWidth: "15em"
+}
+
+const picSize = {
+  width: "50%"
 }
 
 const info = {
@@ -39,7 +44,7 @@ const Index = () => (
 
       <div>
         <p>Software Development, is the future of the African workplace, and economy.</p>
-        <img src="https://images.unsplash.com/photo-1527600478564-488952effedb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+        <img style={picSize} src="https://images.unsplash.com/photo-1527600478564-488952effedb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
         <p style={info}>Software training and outsourcing companies like Andela and Lambda School
           <br /> also allow local developers access global opportunities through training and outsourcing. 
           <br /> Beyond seeking higher-paying opportunities elsewhere, local developers

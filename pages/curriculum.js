@@ -27,6 +27,10 @@ const rose = {
   color: '#cc5490'
 }
 
+const modules = {
+  display: 'inline-block'
+}
+
 const Page = () => (
   <Layout>
 
@@ -43,7 +47,7 @@ const Page = () => (
       
       <hr />
       
-      <div>
+      <div style={modules}>
         <h4 style={rose}>Week One</h4>
         <p>Introduction to HTML & CSS</p>
         <p>Introduction to Git Version Control</p>
@@ -54,7 +58,7 @@ const Page = () => (
 
       <hr />
       
-      <div>
+      <div style={modules}>
         <h4 style={rose}>Week Two</h4>
         <p>Styling React.js components with CSS-in-JS</p>
         <p>Deploying React.js Web Applications</p>

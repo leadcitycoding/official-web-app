@@ -28,6 +28,12 @@ const block = {
   paddingBottom: '1.4em'
 }
 
+const titleUnderline = {
+  textDecoration: 'underline',
+  textDecorationColor: '#1e93dd',
+  marginBottom: '2em'
+}
+
 const rose = {
   color: '#cc5490'
 }
@@ -51,7 +57,8 @@ const Page = () => (
         <img style={imgSize} src="/static/advert.png" title="2019 | Summer Bootcamp" alt="logo" />
 
         <div style={block}>
-          <h3>Contact the Instructor</h3>
+          <h3 style={titleUnderline}>Contact the Instructor</h3>
+          <p>Ninte Dangana</p>
           <p><a href="tel:+2349032551187" style={ahref}
                 alt="+2349032551187">+2349032551187</a></p>
           <hr />

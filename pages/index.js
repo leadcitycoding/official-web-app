@@ -25,7 +25,7 @@ const logoSize = {
 }
 
 const picSize = {
-  width: "50%"
+  width: "60%"
 }
 
 const info = {

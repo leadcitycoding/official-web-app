@@ -2,8 +2,10 @@ import Layout from '../components/Layout'
 
 import Link from 'next/link'
 
-const space = {
-  margin: '2em'
+const titleUnderline = {
+  textDecoration: 'underline',
+  textDecorationColor: '#1e93dd',
+  marginBottom: '2em'
 }
 
 const button = {
@@ -43,16 +45,21 @@ const rose = {
   color: '#cc5490'
 }
 
+const ahref2 ={
+  color: "#1e93dd"
+}
+
 const Index = () => (
   <Layout>
     
     <div className="main-content">
       <img style={logoSize} src="/static/logo.png" title="Lead City Coding Academy" alt="logo" />
 
-      <h1 style={space}>Lead City Coding Academy</h1>
+      <h1 style={titleUnderline}>Lead City Coding Academy</h1>
 
       <div>
-        <p>Software Development, is the future of the African workplace, and economy.</p>
+        <p>Software Development, is the future of the African workplace, and economy.
+          <br /> For this reason, Lead City Coding Academy will be offering a two week, intensive Software Engineering Bootcamp, in Lead City University - Ibadan. This innovative learning programme, will start, in the second week in July, and application is open to all students, and the general population.</p>
         <img style={picSize} src="https://images.unsplash.com/photo-1527600478564-488952effedb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
         <p style={info}>Software training and outsourcing companies like Andela and Lambda School
           <br /> also allow local developers access global opportunities through training and outsourcing. 
@@ -82,6 +89,17 @@ const Index = () => (
       <Link href="/focus">
         <span style={button}>Focus Tools</span>
       </Link>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <a href="https://forms.gle/sKtnTR6CuofYg25f9" 
+         alt="Registration Form" target="_blank"
+         style={ahref2}>
+            <span style={button}>Registration Form</span>
+      </a>
 
     </div>
     

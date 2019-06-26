@@ -19,7 +19,7 @@ const Layout = props => (
       }
 
       .main-content {
-        margin-top: 4em;
+        margin: 4em 2em;
         text-align: center;
       }
     `}</style>

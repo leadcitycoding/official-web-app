@@ -59,7 +59,7 @@ const Index = () => (
 
       <div>
         <p>Software Development, is the future of the African workplace, and economy.
-          <br /> For this reason, Lead City Coding Academy will be offering a two week, intensive Software Engineering Bootcamp, in Lead City University - Ibadan. This innovative learning programme, will start, in the second week in July, and application is open to all students, and the general population.</p>
+          <br /> For this reason, Lead City Coding Academy will be offering a two week, intensive Software Engineering Bootcamp, at Lead City University - Ibadan. This innovative learning programme, will start in the second week of July, and application is open to all students and the general population.</p>
         <img style={picSize} src="https://images.unsplash.com/photo-1527600478564-488952effedb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
         <p style={info}>Software training and outsourcing companies like Andela and Lambda School
           <br /> also allow local developers access global opportunities through training and outsourcing. 

@@ -18,8 +18,9 @@ const button = {
 }
 
 const imgSize = {
-  width: '25%',
-  height: 'auto',
+  width: "80%",
+  height: "auto",
+  maxWidth: "15em",
   marginBottom: '2em'
 }
 

@@ -92,6 +92,7 @@ const Index = () => (
           <h3 style={sea}>Payable to:</h3>
           <h4>LEAD CITY UNIVERSITY</h4>
           <h4><span style={rose}>GTB Account:</span> 0029591261</h4>
+          <p style={sea}><em>Pay at the FEES OFFICE, Registration Unit - <b>Lead City University</b></em></p>
         </div>
       </div>
     

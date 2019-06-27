@@ -50,6 +50,14 @@ const ahref2 ={
   width: "5em"
 }
 
+const pay = {
+  color: '#f0f0f0',
+  fontSize: '1.4em',
+  padding: '0.4em',
+  backgroundColor: '#2d2d2d',
+  cursor: 'pointer'
+}
+
 const Index = () => (
   <Layout>
     
@@ -76,9 +84,11 @@ const Index = () => (
       <div style={cost}>
         <h5 style={rose}>Cost of Tuition</h5>
         <h4>N25,000</h4>
-        <h3>Payable to:</h3>
-        <h4>LEAD CITY UNIVERSITY</h4>
-        <h4>GTB: 0029591261</h4>
+        <div style={pay}>
+          <h3>Payable to:</h3>
+          <h4>LEAD CITY UNIVERSITY</h4>
+          <h4>GTB: 0029591261</h4>
+        </div>
       </div>
     
       <Link href="/curriculum">

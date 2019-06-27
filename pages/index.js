@@ -76,6 +76,9 @@ const Index = () => (
       <div style={cost}>
         <h5 style={rose}>Cost of Tuition</h5>
         <h4>N25,000</h4>
+        <h3>Payable to:</h3>
+        <h4>LEAD CITY UNIVERSITY</h4>
+        <h4>GTB: 0029591261</h4>
       </div>
     
       <Link href="/curriculum">
